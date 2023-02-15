@@ -1,10 +1,9 @@
-void main() {
-  String str = '';
-  for (int i = 0; i < 5; i++) {
-    for (int j = 0; j < 5; j++) {
-      str += '* ';
-    }
-    print(str);
-    str = '';
-  }
+import 'dart:io';
+void main(){
+  print("fisrt name: ");
+  String? name1 = stdin.readLineSync();
+  print("last name: ");
+  String? name2 = stdin.readLineSync();
+
+  print("full name : $name1 $name2");
 }

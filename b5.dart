@@ -1,10 +1,7 @@
 import 'dart:io';
-
 void main() {
-  int number = int.parse(stdin.readLineSync()!);
-  int sum = 0;
-  for (int i = 1; i <= number; i++) {
-    sum += i;
-  }
-  print(sum);
+  print("Nhap so: ");
+  double number = double.parse(stdin.readLineSync()!);
+  double a = number*number;
+  print("binh phuong : $a");
 }

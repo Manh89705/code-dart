@@ -1,6 +1,8 @@
+import 'dart:io';
+
 void main() {
-  for (int i = 1; i <= 100; i++) {
-    if (i == 41) continue;
-    print(i);
-  }
+  print("Nhap chuoi: ");
+  String name = stdin.readLineSync() ?? "";
+  print("xoa dau cach : ");
+  print(name.replaceAll(' ', ' '));
 }
